@@ -1,10 +1,11 @@
 import React from 'react';
-import sandwichLogo from '../../assets/images/sandwich-logo.png';
+
+import burgerLogo from '../../assets/images/logo1.png';
 import classes from './Logo.css';
 
 const logo = (props) => (
-    <div className={classes.Logo} style={{height:props.height}}>
-        <img src={sandwichLogo} alt="MySandwich" />
+    <div className={classes.Logo} style={{height: props.height}}>
+        <img src={burgerLogo} alt="MyBurger" />
     </div>
 );
 
